@@ -1,0 +1,142 @@
+.introContainer {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  /* gap: 40px; */
+  /* background: red; */
+  margin: 0 auto 80px auto;
+  align-items: center;
+  justify-content: center;
+}
+.imgContainer {
+  display: flex;
+  /* background: rebeccapurple; */
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  border-radius: var(--border-radius-20);
+}
+/* .img:last-child {
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+} */
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+}
+.intro h3 {
+  width: 70%;
+  color: var(--cta-color);
+  font-size: 34px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.pContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 40px;
+  font-size: 16px;
+  line-height: var(--lh-16);
+}
+.buttonContainer {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: start;
+}
+.buttonContainer .buttonLink {
+  font-size: 16px;
+  letter-spacing: var(--letter-spacing);
+  color: white;
+  padding: 20px 50px;
+  border: none;
+  background: var(--cta-color);
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.buttonContainer .buttonLink:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.buttonContainer .buttonLink button {
+  color: white;
+}
+.buttonContainer .buttonLink:hover button {
+  color: var(--cta-color);
+  transition: all 0.3s ease;
+}
+.buttonContainer .buttonLink:hover:after {
+  left: 0;
+  width: 100%;
+}
+.buttonContainer .buttonLink:active {
+  top: 2px;
+}
+.buttonLink button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* .intro button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+@media (max-width: 1330px) {
+  .introContainer {
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  .imgContainer {
+    width: 100%;
+  }
+  /* .img:last-child {
+    left: 92px;
+  } */
+  .intro {
+    width: 95%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .pContainer {
+    width: 100%;
+  }
+  .buttonContainer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}

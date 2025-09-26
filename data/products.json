@@ -1,0 +1,832 @@
+[
+  {
+    "id": "coussin-porte-alliances-yvoire",
+    "images": ["/images/products/coussinPorteAlliancesBlanc-2.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Coussin Porte Alliances",
+        "description": "Coussin porte alliances en dentelle de Calais & soie",
+        "material": "Dentelle de Calais 100% coton & soie",
+        "size": "",
+        "color": "Yvoire",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Wedding Ring Pillow",
+        "description": "Wedding ring pillow in Calais lace & silk",
+        "material": "Calais lace 100% cotton & silk",
+        "size": "",
+        "color": "Ivory",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Cuscino Porta Fedi",
+        "description": "Cuscino porta fedi in pizzo di Calais & seta",
+        "material": "Pizzo di Calais 100% cotone & seta",
+        "size": "",
+        "color": "Avorio",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "coussin-porte-alliances-blanc",
+    "images": [
+      "/images/products/coussinPorteAlliancesBlanc.jpg",
+      "/images/products/coussinPorteAlliancesBlanc-1.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Coussin Porte Alliances",
+        "description": "Coussin porte alliances en dentelle de Calais & soie",
+        "material": "Dentelle de Calais 100% coton & soie",
+        "size": "",
+        "color": "Blanc",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Wedding Ring Pillow",
+        "description": "Wedding ring pillow in Calais lace & silk",
+        "material": "Calais lace 100% cotton & silk",
+        "size": "",
+        "color": "White",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Cuscino Porta Fedi",
+        "description": "Cuscino porta fedi in pizzo di Calais & seta",
+        "material": "Pizzo di Calais 100% cotone & seta",
+        "size": "",
+        "color": "Bianco",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "coussin-porte-alliances-blanc-beige",
+    "images": ["/images/products/coussinPorteAlliancesBlancBeige.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Coussin Porte Alliances",
+        "description": "Coussin porte alliances en dentelle de Calais & soie",
+        "material": "Dentelle de Calais 100% coton & soie",
+        "size": "",
+        "color": "Or",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Wedding Ring Pillow",
+        "description": "Wedding ring pillow in Calais lace & silk",
+        "material": "Calais lace 100% cotton & silk",
+        "size": "",
+        "color": "Gold",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Cuscino Porta Fedi",
+        "description": "Cuscino porta fedi in pizzo di Calais & seta",
+        "material": "Pizzo di Calais 100% cotone & seta",
+        "size": "",
+        "color": "Oro",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "jarretiere-de-marriee-blanc",
+    "images": ["/images/products/jarretiereBlanche.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Sublimez le plus beau jour de votre vie avec cette jarretière de mariée en satin et dentelle, délicatement façonnée pour allier élégance et sensualité. Sa teinte ivoire lumineuse caresse la peau avec raffinement, apportant ce petit détail glamour qui fera battre les cœurs. Confortable et parfaitement ajustable grâce à sa taille unique, elle devient l’accessoire secret qui complète votre tenue avec charme et sophistication. Une pièce intime et précieuse, pensée pour rendre chaque moment magique et inoubliable",
+        "material": "Satain & Dentelle",
+        "size": "Taille Unique (?)",
+        "color": "Yvoire",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Elevate the most beautiful day of your life with this bridal garter in satin and lace, delicately crafted to combine elegance and sensuality. Its luminous ivory shade gently caresses the skin, adding that little glamorous detail that will make hearts flutter. Comfortable and perfectly adjustable thanks to its one-size design, it becomes the secret accessory that completes your outfit with charm and sophistication. An intimate and precious piece, designed to make every moment magical and unforgettable.",
+        "material": "Satin & Lace",
+        "size": "One Size (?)",
+        "color": "Ivory",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Esalta il giorno più bello della tua vita con questa giarrettiera da sposa in satin e pizzo, delicatamente realizzata per combinare eleganza e sensualità. La sua tonalità avorio luminosa accarezza la pelle con raffinatezza, aggiungendo quel piccolo dettaglio glamour che farà battere i cuori. Confortevole e perfettamente regolabile grazie alla sua taglia unica, diventa l’accessorio segreto che completa il tuo outfit con charme e sofisticazione. Un pezzo intimo e prezioso, pensato per rendere ogni momento magico e indimenticabile.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica (?)",
+        "color": "Avorio",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "jarretiere-de-marriee-blanc-beige",
+    "images": ["/images/products/jarretiereBlancheBeige.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Ajoutez une touche de glamour et de raffinement à votre tenue de mariage avec cette jarretière en satin et dentelle. L’alliance de l’ivoire doux et de l’or étincelant crée un contraste subtil et élégant qui capte la lumière à chaque mouvement. Sa taille unique assure un maintien parfait tout en restant confortable, faisant de cette pièce un secret délicat et précieux à dévoiler lors de ce jour inoubliable. Une jarretière qui incarne à la fois l’élégance, la sensualité et l’éclat de votre journée de rêve.",
+        "material": "Satin & Dentelle",
+        "size": "Taille Unique (?)",
+        "color": "Ivoire / Or",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Add a touch of glamour and refinement to your wedding outfit with this satin and lace garter. The combination of soft ivory and sparkling gold creates a subtle, elegant contrast that catches the light with every movement. Its one-size design ensures a perfect fit while remaining comfortable, making this piece a delicate and precious secret to reveal on your unforgettable day. A garter that embodies elegance, sensuality, and the radiance of your dream day.",
+        "material": "Satin & Lace",
+        "size": "One Size",
+        "color": "Ivory / Gold (?)",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Aggiungi un tocco di glamour e raffinatezza al tuo outfit da sposa con questa giarrettiera in satin e pizzo. L’unione dell’avorio delicato e dell’oro scintillante crea un contrasto sottile ed elegante che cattura la luce a ogni movimento. La taglia unica garantisce una vestibilità perfetta senza rinunciare al comfort, rendendo questo pezzo un segreto delicato e prezioso da svelare in questo giorno indimenticabile. Una giarrettiera che incarna eleganza, sensualità e la luminosità del tuo giorno da sogno.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica (?)",
+        "color": "Avorio / Oro",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "jarretiere-de-marriee-blanc-bleu",
+    "images": ["/images/products/jarretiereBlancheBleu.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Apportez une touche de sophistication et de charme à votre tenue de mariage avec cette jarretière en satin et dentelle. L’association du bleu et de l’or scintillant crée un contraste élégant et raffiné, captant la lumière à chaque mouvement. Sa taille unique assure un maintien parfait tout en restant confortable, faisant de cette pièce un secret délicat et précieux pour votre jour unique. Une jarretière qui allie élégance, éclat et sensualité, pour sublimer chaque instant.",
+        "material": "Satin & Dentelle",
+        "size": "Taille Unique",
+        "color": "Bleu / Or",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Bring a touch of sophistication and charm to your wedding outfit with this satin and lace garter. The combination of blue and sparkling gold creates an elegant and refined contrast, catching the light with every movement. Its one-size design ensures a perfect fit while remaining comfortable, making this piece a delicate and precious secret for your special day. A garter that blends elegance, brilliance, and sensuality to enhance every moment.",
+        "material": "Satin & Lace",
+        "size": "One Size",
+        "color": "Blue / Gold",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Aggiungi un tocco di raffinatezza e fascino al tuo outfit da sposa con questa giarrettiera in satin e pizzo. L’unione del blu e dell’oro scintillante crea un contrasto elegante e raffinato, catturando la luce a ogni movimento. La taglia unica garantisce una vestibilità perfetta senza rinunciare al comfort, rendendo questo pezzo un segreto delicato e prezioso per il tuo giorno speciale. Una giarrettiera che combina eleganza, brillantezza e sensualità per valorizzare ogni istante.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica",
+        "color": "Blu / Oro",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "jarretiere-de-marriee-ivoire-corail",
+    "images": ["/images/products/jarretiereBlancheCorail.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Éveillez l’élégance et la fraîcheur sur votre tenue de mariage avec cette jarretière en satin et dentelle aux tons ivoire et corail. Sa teinte corail subtile apporte une note pétillante et raffinée, tandis que l’ivoire enveloppe délicatement la peau. Sa taille unique assure un confort parfait et un maintien idéal, faisant de cette pièce intime un détail précieux qui illuminera chaque instant de votre jour exceptionnel.",
+        "material": "Satin & Dentelle",
+        "size": "Taille Unique",
+        "color": "Ivoire / Corail",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Add elegance and a touch of freshness to your wedding outfit with this satin and lace garter in ivory and coral tones. The subtle coral hue brings a sparkling and refined note, while the ivory gently caresses the skin. Its one-size design ensures perfect comfort and ideal fit, making this intimate piece a precious detail that will brighten every moment of your special day.",
+        "material": "Satin & Lace",
+        "size": "One Size",
+        "color": "Ivory / Coral",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Risveglia eleganza e freschezza nel tuo abito da sposa con questa giarrettiera in satin e pizzo dai toni avorio e corallo. La sottile tonalità corallo aggiunge un tocco raffinato e brillante, mentre l’avorio avvolge delicatamente la pelle. La taglia unica garantisce comfort perfetto e vestibilità ideale, rendendo questo pezzo intimo un dettaglio prezioso che illuminerà ogni momento del tuo giorno speciale.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica",
+        "color": "Avorio / Corallo",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "jarretiere-de-marriee-ivoire-rose",
+    "images": ["/images/products/jarretiereBlancheRose.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Apportez une touche romantique et délicate à votre tenue de mariage avec cette jarretière en satin et dentelle aux tons ivoire et rose poudré. Sa nuance douce et féminine sublime la peau tout en restant élégante, et sa taille unique assure un confort parfait. Un accessoire intime et raffiné qui rendra chaque instant de votre jour spécial encore plus mémorable.",
+        "material": "Satin & Dentelle",
+        "size": "Taille Unique",
+        "color": "Ivoire / Rose Poudré",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Add a romantic and delicate touch to your wedding outfit with this satin and lace garter in ivory and soft pink tones. Its gentle and feminine shade enhances the skin while remaining elegant, and its one-size design ensures perfect comfort. An intimate and refined accessory that will make every moment of your special day even more memorable.",
+        "material": "Satin & Lace",
+        "size": "One Size",
+        "color": "Ivory / Soft Pink",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Aggiungi un tocco romantico e delicato al tuo abito da sposa con questa giarrettiera in satin e pizzo dai toni avorio e rosa cipria. La sua sfumatura morbida e femminile esalta la pelle mantenendo l’eleganza, e la taglia unica garantisce comfort perfetto. Un accessorio intimo e raffinato che renderà ogni momento del tuo giorno speciale ancora più memorabile.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica",
+        "color": "Avorio / Rosa Cipria",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "jarretiere-de-marriee-courte-blanc-ivoire",
+    "images": [
+      "/images/products/jarretiereCourte.jpg",
+      "/images/products/jarretiereCourte-2.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Jarretière de mariée",
+        "description": "Élevez l’élégance de votre tenue de mariage avec cette jarretière en satin et dentelle aux tons ivoire et blanc. Sa combinaison de nuances claires crée un contraste subtil et raffiné, caressant la peau avec douceur. Sa taille unique assure un confort optimal tout au long de la journée. Un accessoire intime et précieux qui apportera une touche d’éclat et de délicatesse à votre moment unique.",
+        "material": "Satin & Dentelle",
+        "size": "Taille Unique",
+        "color": "Ivoire / Blanc",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Bridal Garter",
+        "description": "Enhance the elegance of your wedding outfit with this satin and lace garter in ivory and white tones. The blend of soft shades creates a subtle and refined contrast, gently caressing the skin. Its one-size design ensures optimal comfort throughout the day. An intimate and precious accessory that adds a touch of brightness and delicacy to your unique moment.",
+        "material": "Satin & Lace",
+        "size": "One Size",
+        "color": "Ivory / White",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Giarrettiera da Sposa",
+        "description": "Esalta l’eleganza del tuo abito da sposa con questa giarrettiera in satin e pizzo nei toni avorio e bianco. La combinazione di tonalità delicate crea un contrasto sottile e raffinato, avvolgendo la pelle con dolcezza. La taglia unica garantisce comfort ottimale per tutta la giornata. Un accessorio intimo e prezioso che aggiunge un tocco di luce e delicatezza al tuo momento unico.",
+        "material": "Satin & Pizzo",
+        "size": "Taglia Unica",
+        "color": "Avorio / Bianco",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "39,00 ",
+    "priceStripe": "3900"
+  },
+  {
+    "id": "masque-de-repos-blanc",
+    "images": ["/images/products/masqueReposBlanc.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Masque de repos",
+        "description": "Offrez-vous un instant d’évasion et de luxe avec ce masque de repos unique en dentelle et soie. Son toucher soyeux apaise et protège vos yeux de la lumière, transformant vos moments de sommeil, de méditation ou de relaxation en un véritable rituel de bien-être. Sa teinte blanche pure évoque douceur et sérénité, tandis que sa confection artisanale en fait une pièce unique, précieuse et raffinée.",
+        "material": "Dentelle & Soie",
+        "size": "Taille Unique",
+        "color": "Blanc",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Rest Mask",
+        "description": "Indulge in a moment of escape and luxury with this one-of-a-kind lace and silk rest mask. Its silky touch soothes and shields your eyes from light, turning your sleep, meditation, or relaxation time into a true wellness ritual. The pure white hue evokes softness and serenity, while its artisanal craftsmanship makes it a unique, precious, and refined piece.",
+        "material": "Lace & Silk",
+        "size": "One Size",
+        "color": "White",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Maschera da Riposo",
+        "description": "Concediti un momento di evasione e lusso con questa maschera da riposo unica in pizzo e seta. Il suo tocco setoso calma e protegge gli occhi dalla luce, trasformando sonno, meditazione o relax in un vero rituale di benessere. Il bianco puro evoca dolcezza e serenità, mentre la sua lavorazione artigianale la rende un pezzo unico, prezioso e raffinato.",
+        "material": "Pizzo & Seta",
+        "size": "Taglia Unica",
+        "color": "Bianco",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "masque-de-repos-or",
+    "images": ["/images/products/masqueReposOr.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Masque de repos",
+        "description": "Offrez-vous un instant de détente et de raffinement avec ce masque de repos unique en damassé de coton et soie. Sa texture douce et soyeuse apaise vos yeux et les protège de la lumière, transformant chaque moment de sommeil, de méditation ou de relaxation en un rituel de bien-être. Sa teinte dorée, éclatante et élégante, apporte une touche luxueuse et précieuse, tandis que sa confection artisanale en fait une pièce unique et incomparable.",
+        "material": "Damassé coton & Soie",
+        "size": "Taille Unique",
+        "color": "Or",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Rest Mask",
+        "description": "Indulge in a moment of relaxation and refinement with this unique rest mask made of cotton damask and silk. Its soft, silky texture soothes your eyes and shields them from light, transforming every moment of sleep, meditation, or relaxation into a wellness ritual. Its golden hue, radiant and elegant, adds a luxurious and precious touch, while its artisanal craftsmanship makes it a truly unique piece.",
+        "material": "Cotton Damask & Silk",
+        "size": "One Size",
+        "color": "Gold",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Maschera da Riposo",
+        "description": "Concediti un momento di relax e raffinatezza con questa maschera da riposo unica in damasco di cotone e seta. La sua texture morbida e setosa calma e protegge gli occhi dalla luce, trasformando ogni momento di sonno, meditazione o relax in un rituale di benessere. La sua tonalità dorata, luminosa ed elegante, aggiunge un tocco lussuoso e prezioso, mentre la lavorazione artigianale la rende un pezzo davvero unico.",
+        "material": "Damasco di Cotone & Seta",
+        "size": "Taglia Unica",
+        "color": "Oro",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "masque-de-repos-rose-poudre-or",
+    "images": ["/images/products/masqueReposRose.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Masque de repos",
+        "description": "Accordez-vous une parenthèse de douceur et de luxe avec ce masque de repos unique en brocard 100 % coton et soie. Sa texture soyeuse et délicate apaise vos yeux et les protège de la lumière, transformant vos moments de sommeil, de méditation ou de relaxation en un véritable rituel de bien-être. Sa teinte rose poudré rehaussée d’or apporte une touche romantique et précieuse, tandis que sa confection artisanale en fait une pièce unique et raffinée.",
+        "material": "Brocard 100% coton & Soie",
+        "size": "Taille Unique",
+        "color": "Rose poudré / Or",
+        "orderMessage": "",
+        "category": "Accessoires"
+      },
+      "en": {
+        "name": "Rest Mask",
+        "description": "Treat yourself to a moment of softness and luxury with this unique rest mask crafted from 100% cotton brocade and silk. Its silky, delicate texture soothes your eyes and shields them from light, turning your sleep, meditation, or relaxation moments into a true wellness ritual. Its blush pink hue enhanced with gold adds a romantic and precious touch, while its artisanal craftsmanship makes it a unique and refined piece.",
+        "material": "100% Cotton Brocade & Silk",
+        "size": "One Size",
+        "color": "Blush Pink / Gold",
+        "orderMessage": "",
+        "category": "Accessories"
+      },
+      "it": {
+        "name": "Maschera da Riposo",
+        "description": "Concediti un momento di dolcezza e lusso con questa maschera da riposo unica in broccato 100% cotone e seta. La sua texture setosa e delicata calma e protegge gli occhi dalla luce, trasformando il sonno, la meditazione o il relax in un vero rituale di benessere. La tonalità rosa cipria arricchita d’oro aggiunge un tocco romantico e prezioso, mentre la lavorazione artigianale la rende un pezzo unico e raffinato.",
+        "material": "Broccato 100% Cotone & Seta",
+        "size": "Taglia Unica",
+        "color": "Rosa Cipria / Oro",
+        "orderMessage": "",
+        "category": "Accessori"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Accessoires",
+    "price": "49,00 ",
+    "priceStripe": "4900"
+  },
+  {
+    "id": "robe-courte-bb",
+    "images": [
+      "/images/products/robeCourteBB-1.jpeg",
+      "/images/products/robeCourteBB-2.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Robe courte BB",
+        "description": "Une petite robe courte pleine de malice et de raffinement. En soie sauvage non doublée, la robe BB dénude les épaules avec élégance et confère instantanément allure, assurance et féminité à celle qui la porte.",
+        "material": "Shantung 100% Soie",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les courtes"
+      },
+      "en": {
+        "name": "BB Short Dress",
+        "description": "A playful and refined short dress. Made from unlined wild silk, the BB dress elegantly bares the shoulders and instantly gives the wearer poise, confidence and femininity.",
+        "material": "100% Silk Shantung",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) within a 4-month timeframe, shipping not included, after full payment of the item. Please contact us for more information.",
+        "category": "Short Dresses"
+      },
+
+      "it": {
+        "name": "Abito Corto BB",
+        "description": "Un abito corto pieno di malizia e raffinatezza. Realizzato in seta selvaggia non foderata, l’abito BB scopre elegantemente le spalle e dona immediatamente portamento, sicurezza e femminilità a chi lo indossa.",
+        "material": "Shantung 100% Seta",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un’altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento integrale dell’articolo. Contattaci per maggiori informazioni.",
+        "category": "Abiti Corti"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les courtes",
+    "price": "490,00 ",
+    "priceStripe": "49000"
+  },
+  {
+    "id": "robe-courte-ilia",
+    "images": [
+      "/images/products/robeIlia.jpg",
+      "/images/products/robeIlia-2.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Robe courte ILIA",
+        "description": "Laissez-vous séduire par l’élégance irrésistible de la robe courte ILIA. Confectionnée en soie luxueuse et entièrement doublée pour un confort parfait, elle dévoile un décolleté profond sublimé par une dentelle délicate qui souligne subtilement votre féminité. Une pièce audacieuse et raffinée, pensée pour faire rayonner votre allure avec charme et assurance.",
+        "material": "Shantung 100% soie & Doublure 100% soie",
+        "size": "M (EU.40/42 – IT.44/46)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les courtes"
+      },
+      "en": {
+        "name": "BB Short Dress",
+        "description": "Succumb to the irresistible elegance of the ILIA short dress. Crafted from luxurious silk and fully lined for perfect comfort, it features a deep neckline adorned with delicate lace that subtly enhances your femininity. A bold yet refined piece designed to make your presence shine with charm and confidence.",
+        "material": "100% silk shantung & 100% silk lining",
+        "size": "M (EU.40/42 – IT.44/46)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) within a 4-month timeframe, shipping not included, after full payment of the item. Please contact us for more information.",
+        "category": "Short Dresses"
+      },
+
+      "it": {
+        "name": "Abito Corto BB",
+        "description": "Lasciati conquistare dall’eleganza irresistibile dell’abito corto ILIA. Realizzato in lussuosa seta e completamente foderato per un comfort impeccabile, presenta una scollatura profonda impreziosita da delicato pizzo che esalta con raffinatezza la tua femminilità. Un capo audace e sofisticato, pensato per far brillare il tuo stile con fascino e sicurezza.",
+        "material": "Shantung 100% seta & fodera 100% seta",
+        "size": "M (EU.40/42 – IT.44/46)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un’altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento integrale dell’articolo. Contattaci per maggiori informazioni.",
+        "category": "Abiti Corti"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les courtes",
+    "price": "690,00 ",
+    "priceStripe": "69000"
+  },
+  {
+    "id": "jupe-emee",
+    "images": ["/images/products/jupeEmee-1.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Jupe EMEE",
+        "description": "Élégance intemporelle et allure moderne : la longue jupe EMEE en crêpe de soie se distingue par ses pinces structurantes et ses poches discrètes. Fluide et raffinée, elle se prête à toutes les saisons et se métamorphose au gré de vos envies : associée à un top en dentelle pour un look sophistiqué ou à un pull en maille ou en cachemire pour une touche cosy-chic. Un indispensable du vestiaire féminin, pensé pour sublimer votre silhouette avec style et confort.",
+        "material": "Crêpe de soie",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "EMEE Skirt",
+        "description": "Timeless elegance meets modern allure: the long EMEE skirt in silk crepe stands out with its structured pleats and discreet pockets. Flowing and refined, it transitions effortlessly through the seasons, adapting to your every mood: pair it with a lace top for a sophisticated look or a knitted or cashmere sweater for a cosy-chic touch. An essential piece in any woman’s wardrobe, designed to enhance your silhouette with style and comfort.",
+        "material": "Silk Crepe",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) within 4 months, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long skirts"
+      },
+      "it": {
+        "name": "Gonna EMEE",
+        "description": "Eleganza senza tempo e fascino moderno: la lunga gonna EMEE in crêpe di seta si distingue per le sue pince strutturate e le tasche discrete. Fluida e raffinata, accompagna tutte le stagioni adattandosi ai tuoi desideri: abbinala a un top in pizzo per un look sofisticato o a un maglione in lana o cashmere per un tocco cosy-chic. Un capo essenziale del guardaroba femminile, pensato per valorizzare la tua silhouette con stile e comfort.",
+        "material": "Crêpe di seta",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un’altra taglia (S, M, L, XL) entro 4 mesi, spedizione non inclusa, dopo il pagamento integrale dell’articolo. Contattaci per maggiori informazioni.",
+        "category": "Gonne lunghe"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": ["Les longues", "Les combinables"],
+    "price": "890,00",
+    "priceStripe": "89000"
+  },
+  {
+    "id": "jupe-luna",
+    "images": [
+      "/images/products/jupeLuna-1.jpg",
+      "/images/products/jupeLuna-2.jpg",
+      "/images/products/jupeLuna-3.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Jupe LUNA",
+        "description": "Sublimez votre silhouette avec la jupe LUNA : longue, fluide et dotée d’une traîne délicate, elle épouse les hanches avant de s’évaser avec grâce. Confortable et entièrement doublée, elle se porte en toutes saisons, avec un top léger pour l’été ou un pull en maille ou cachemire pour un look chic et cosy en hiver. Intemporelle, audacieuse et ultra féminine… LUNA est LA pièce qui transforme chaque pas en un moment de style.",
+        "material": "Crêpe de laine",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "LUNA Skirt",
+        "description": "Enhance your silhouette with the LUNA skirt: long, flowing, and featuring a delicate train, it hugs the hips before gracefully flaring out. Comfortable and fully lined, it can be worn all year round—pair it with a light top in summer or a knit or cashmere sweater for a chic and cozy winter look. Timeless, bold, and ultra-feminine… LUNA is THE piece that turns every step into a style statement.",
+        "material": "Wool Crepe",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long skirts"
+      },
+      "it": {
+        "name": "Gonna LUNA",
+        "description": "Esalta la tua silhouette con la gonna LUNA: lunga, fluida e con una delicata coda, aderisce ai fianchi prima di allargarsi con grazia. Comoda e completamente foderata, può essere indossata tutto l’anno—abbinala a un top leggero in estate o a un maglione in lana o cachemire per un look chic e cozy in inverno. Senza tempo, audace e ultra femminile… LUNA è IL capo che trasforma ogni passo in un momento di stile.",
+        "material": "Crepe di lana",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Gonne lunghe"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": ["Les longues", "Les combinables"],
+    "price": "890,00",
+    "priceStripe": "89000"
+  },
+  {
+    "id": "robe-clair-de-lune",
+    "images": [
+      "/images/products/robeClaireDeLune-1.jpg",
+      "/images/products/robeClaireDeLune-2.jpg",
+      "/images/products/robeClaireDeLune-3.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Robe CLAIR DE LUNE",
+        "description": "Dentelle exquise, drapé léger et dos sublimement dévoilé… CLAIR DE LUNE combine romantisme et audace pour une allure inoubliable. Que ce soit pour un événement chic, une soirée d’été ou un moment spécial, cette robe assure une présence remarquée et une élégance sans effort.",
+        "material": "Dentelle guipure souple, Doublure 100% satin de soie",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "CLAIR DE LUNE Dress",
+        "description": "Exquisite lace, a light drape, and a stunningly revealed back… CLAIR DE LUNE blends romance and boldness for an unforgettable look. Perfect for a chic event, a summer evening, or a special occasion, this dress ensures all eyes are on you with effortless elegance.",
+        "material": "Soft guipure lace, 100% silk satin lining",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long dresses"
+      },
+      "it": {
+        "name": "Abito CLAIR DE LUNE",
+        "description": "Pizzo squisito, leggero drappeggio e schiena splendidamente scoperta… CLAIR DE LUNE unisce romanticismo e audacia per un look indimenticabile. Perfetto per un evento elegante, una serata estiva o un’occasione speciale, questo abito cattura tutti gli sguardi con un’eleganza senza sforzo.",
+        "material": "Pizzo guipure morbido, fodera 100% satin di seta",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Abiti lunghi"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les longues",
+    "price": "2100,00",
+    "priceStripe": "210000"
+  },
+  {
+    "id": "robe-nikita",
+    "images": [
+      "/images/products/robeNikita-1.jpg",
+      "/images/products/robeNikita-2.jpg",
+      "/images/products/robeNikita-3.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Robe NIKITA",
+        "description": "Faites sensation avec la robe NIKITA : longue, fluide et résolument moderne, elle joue sur les contrastes avec ses manches bouffantes et son dos joliment dénudé, fermé par un élégant nœud autour du cou. Sa jupe asymétrique, plus longue à l’arrière, crée un mouvement captivant à chaque pas. Idéale pour briller lors d’un événement spécial, d’une soirée ou d’une cérémonie, NIKITA allie audace et sophistication pour un look mémorable.",
+        "material": "Crêpe de soie",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "NIKITA Dress",
+        "description": "Make a statement with the NIKITA dress: long, flowing, and boldly modern, it contrasts puffed sleeves with a beautifully open back, secured by an elegant knot at the neck. The asymmetrical skirt, longer at the back, creates a captivating movement with every step. Perfect for standing out at a special event, evening party, or ceremony, NIKITA combines boldness and sophistication for a truly memorable look.",
+        "material": "Silk crepe",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long dresses"
+      },
+      "it": {
+        "name": "Abito NIKITA",
+        "description": "Fai colpo con l’abito NIKITA: lungo, fluido e decisamente moderno, gioca sui contrasti con le maniche a sbuffo e la schiena splendidamente scoperta, chiusa da un elegante nodo al collo. La gonna asimmetrica, più lunga sul retro, crea un movimento affascinante a ogni passo. Perfetto per distinguersi in un evento speciale, una serata o una cerimonia, NIKITA unisce audacia e sofisticazione per un look davvero memorabile.",
+        "material": "Crepe di seta",
+        "size": "M (EU.40 – IT.44)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Abiti lunghi"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les longues",
+    "price": "2100,00",
+    "priceStripe": "210000"
+  },
+  {
+    "id": "robe-70",
+    "images": ["/images/products/robe70-1.jpg"],
+    "translations": {
+      "fr": {
+        "name": "Robe '70",
+        "description": "Plongez dans l’esprit des années 70 avec cette robe longue, fluide et élégante. Ses manches 3/4 et sa coupe qui allonge la silhouette subliment le buste avec grâce, tandis que la délicate guipure évoque un charme bohème irrésistible. Idéale pour une soirée, un brunch estival ou un événement chic, la robe ’70 allie style rétro et sophistication moderne pour un look mémorable et plein de caractère.",
+        "material": "Guipure & Doublure: 100%soie",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "'70 Dress",
+        "description": "Step into the spirit of the 1970s with this long, flowing, and elegant dress. Its 3/4 sleeves and figure-flattering cut highlight the bust with grace, while the delicate guipure lace evokes irresistible bohemian charm. Perfect for an evening, a summer brunch, or a chic event, the ’70 dress combines retro style with modern sophistication for a memorable and character-filled look.",
+        "material": "Guipure & Lining: 100% silk",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long dresses"
+      },
+      "it": {
+        "name": "Abito '70",
+        "description": "Entra nello spirito degli anni ’70 con questo abito lungo, fluido ed elegante. Le maniche 3/4 e il taglio che slancia la silhouette valorizzano il busto con grazia, mentre il delicato pizzo guipure evoca un fascino bohémien irresistibile. Perfetto per una serata, un brunch estivo o un evento chic, l’abito ’70 unisce stile retrò e sofisticazione moderna per un look memorabile e pieno di carattere.",
+        "material": "Guipure & Fodera: 100% seta",
+        "size": "S (EU.38 – IT.42)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Abiti lunghi"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les longues",
+    "price": "2100,00",
+    "priceStripe": "210000"
+  },
+  {
+    "id": "ensemble-valentina",
+    "images": [
+      "/images/products/ensembleValentina-1.jpg",
+      "/images/products/ensembleValentina-2.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Ensemble VALENTINA",
+        "description": "Succombez au charme de l’ensemble VALENTINA : une jupe longue en coton et lin qui flotte à chacun de vos pas, accompagnée d’un top délicatement ouvert dans le dos, noué d’un ruban de satin. Doublure 100% soie pour un confort absolu. Idéal pour des moments romantiques ou un brunch ensoleillé, cet ensemble respire la douceur et l’élégance naturelle.",
+        "material": "Coton / Lin Doublure: 100% Soie",
+        "size": "S (EU.38/40 – IT.42/44)",
+        "color": "Ivoire / Beige",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "VALENTINA Set",
+        "description": "Fall for the charm of the VALENTINA set: a long cotton and linen skirt that flows with every step, paired with a delicately open-back top tied with a satin ribbon. Fully lined in 100% silk for ultimate comfort. Perfect for romantic moments or a sunny brunch, this set exudes natural elegance and effortless femininity.",
+        "material": "Cotton / Linen Lining: 100% Silk",
+        "size": "S (EU.38/40 – IT.42/44)",
+        "color": "Ivory / Beige",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long sets"
+      },
+      "it": {
+        "name": "Completo VALENTINA",
+        "description": "Lasciati conquistare dal fascino del completo VALENTINA: una lunga gonna in cotone e lino che fluttua a ogni passo, abbinata a un top delicatamente aperto sul retro e chiuso con un nastro di raso. Foderato in 100% seta per un comfort assoluto. Perfetto per momenti romantici o un brunch soleggiato, questo completo emana eleganza naturale e femminilità senza sforzo.",
+        "material": "Cotone / Lino Fodera: 100% Seta",
+        "size": "S (EU.38/40 – IT.42/44)",
+        "color": "Avorio / Beige",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Completi lunghi"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les longues",
+    "price": "1490,00",
+    "priceStripe": "149000"
+  },
+  {
+    "id": "ensemble-melody-nelson",
+    "images": [
+      "/images/products/ensembleMelodyNelson-1.jpg",
+      "/images/products/ensembleMelodyNelson-2.jpg"
+    ],
+    "translations": {
+      "fr": {
+        "name": "Ensemble MÉLODY NELSON",
+        "description": "Osez un look chic et sophistiqué avec l’ensemble MÉLODY NELSON : un pantalon fluide en dentelle et crêpe de soie parfaitement assorti à une tunique asymétrique sans manches, sublimée par un profond décolleté dans le dos. Le nœud en organza de soie amovible apporte une touche de féminité modulable, laissant libre cours à votre créativité. Idéal pour une soirée, un cocktail ou un événement spécial, cet ensemble allie modernité, audace et raffinement pour une allure inoubliable.",
+        "material": "Dentelle & Doublure: 100% Soie",
+        "size": "M (EU.42 – IT.46)",
+        "color": "Ivoire",
+        "orderMessage": "Ce modèle peut être commandé dans une autre taille (S, M, L, XL) dans un délais de 4 mois, expédition non incluse, après paiement intégral de l’article. Nous contacter pour plus d’informations.",
+        "category": "Les longues"
+      },
+      "en": {
+        "name": "MÉLODY NELSON Set",
+        "description": "Dare to embrace a chic and sophisticated look with the MÉLODY NELSON set: a flowing lace and silk crepe pant perfectly paired with a sleeveless asymmetrical tunic, highlighted by a deep open-back neckline. The removable silk organza bow adds a versatile feminine touch, letting you express your creativity. Perfect for an evening, cocktail, or special event, this set combines modernity, boldness, and refinement for an unforgettable style.",
+        "material": "Lace & Lining: 100% Silk",
+        "size": "M (EU.42 – IT.46)",
+        "color": "Ivory",
+        "orderMessage": "This model can be ordered in another size (S, M, L, XL) with a 4-month lead time, shipping not included, after full payment of the item. Contact us for more information.",
+        "category": "Long sets"
+      },
+      "it": {
+        "name": "Completo MÉLODY NELSON",
+        "description": "Osate un look chic e sofisticato con il completo MÉLODY NELSON: pantaloni fluidi in pizzo e crepe di seta perfettamente abbinati a una tunica asimmetrica senza maniche, valorizzata da un profondo scollo sulla schiena. Il fiocco removibile in organza di seta aggiunge un tocco femminile modulabile, lasciando libera la vostra creatività. Perfetto per una serata, un cocktail o un evento speciale, questo completo unisce modernità, audacia e raffinatezza per uno stile indimenticabile.",
+        "material": "Pizzo & Fodera: 100% Seta",
+        "size": "M (EU.42 – IT.46)",
+        "color": "Avorio",
+        "orderMessage": "Questo modello può essere ordinato in un'altra taglia (S, M, L, XL) con un tempo di consegna di 4 mesi, spedizione non inclusa, dopo il pagamento completo dell’articolo. Contattarci per maggiori informazioni.",
+        "category": "Completi lunghi"
+      }
+    },
+    "uniquePiece": true,
+    "available": true,
+    "categorySlug": "Les longues",
+    "price": "1850,00",
+    "priceStripe": "185000"
+  }
+]

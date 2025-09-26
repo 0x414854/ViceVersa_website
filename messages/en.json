@@ -1,0 +1,80 @@
+{
+  "Test": {
+    "title": "Welcome to the homepage",
+    "content": "I'm on the road to success"
+  },
+
+  "Navbar": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "news": "News",
+    "contact": "Contact",
+    "h1": "Luxury craftsmanship of wedding dresses & accessories",
+    "h2": "Atelier Vice Versa"
+  },
+
+  "Hero": {
+    "h1": "Luxury craftsmanship of wedding dresses & accessories",
+    "h2": "Atelier Vice Versa"
+  },
+
+  "Homepage": {
+    "h3": "Discover our world",
+    "p1": "Wander through this site as if you were embarking on a journey… an inner and dreamlike journey where your emotions will guide you… Let the magic unfold…",
+    "p2": "Each creation is unique, just like you, and every dress is an act of love — like the one you are about to make.",
+    "button": "Learn more"
+  },
+
+  "AboutPage": {
+    "h1": "About",
+    "h3": "Discover Our World",
+    "p1": "A graduate of the renowned Accademia Internazionale d’Alta Moda e d’Arte del Costume KOEFIA in Rome, the creator of VICE VERSA cannot bring herself to settle in just one country. Deeply attached to her “Alpine” roots, her heart constantly travels between France, Switzerland and Italy…",
+    "button": "Discover",
+    "p2": "It is the love of artisanal know-how as well as an inner mystical quest that lay the foundations of the brand. The VICE VERSA workshop champions French know-how, artistic craftsmanship, and uniqueness with its one-of-a-kind pieces made from premium materials.",
+    "span": "sourced from the very same suppliers as the Haute Couture houses."
+  },
+  "ShopPage": {
+    "h1": "Our products",
+    "filters": {
+      "all": "All",
+      "short": "Short",
+      "long": "Long",
+      "mix": "Mix & Match",
+      "cocooning": "Cocooning",
+      "accessories": "Accessories"
+    },
+    "span": "Nothing on the racks today! Our one-of-a-kind pieces are worth the wait… get ready for the next gem ✨"
+  },
+  "ShopID": {
+    "uniquePiece": "Unique Piece",
+    "button": "Add to cart"
+  },
+  "ContactPage": {
+    "h1": "Contact",
+    "firstName": "First Name*",
+    "lastName": "Last Name*",
+    "email": "Email*",
+    "phone": "Phone*",
+    "message": "Your message...*",
+    "send": "Send message"
+  },
+  "NewsPage": {
+    "h1": "News"
+  },
+  "PopUpPage": {
+    "h1": "Pop up"
+  },
+  "CollaborationPage": {
+    "h1": "Collaboration Artistique"
+  },
+  "CartPage": {
+    "h1": "Your Cart",
+    "pEmpty": "Your cart is empty..."
+  },
+  "Footer": {
+    "legalNotice": "Legal notice",
+    "privacyPolicy": "Privacy policy",
+    "cgv": "Returns & exchanges"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "Test": {
+    "title": "Bienvenue sur la page d'accueil",
+    "content": "Je suis sur la route du succès"
+  },
+  "Navbar": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "À propos",
+    "news": "News",
+    "contact": "Contact",
+    "h1": "Artisanat de luxe de robes de mariées & accessoires",
+    "h2": "Atelier Vice Versa"
+  },
+  "Hero": {
+    "h1": "Artisanat de luxe de robes de mariées & accessoires",
+    "h2": "Atelier Vice Versa"
+  },
+  "Homepage": {
+    "h3": "Découvrez notre univers",
+    "p1": "Déambulez sur ce site comme si vous faisiez un voyage… un voyage intérieur et onirique, dans lequel vos émotions vous guideront… Laissez la magie opérer…",
+    "p2": "Chaque création est unique comme vous l’êtes et chaque robe est un acte d’amour comme celui que vous vous apprêtez à faire.",
+    "button": "En savoir +"
+  },
+  "AboutPage": {
+    "h1": "À propos",
+    "h3": "Découvrez notre univers",
+    "p1": "Diplômée de la fameuse Accademia Internazionale d’Alta Moda e d’Arte Del Costume KOEFIA de Rome, la créatrice de VICE VERSA ne peut se résoudre à poser ses valises dans un seul pays. Profondément attachée à ses racines « alpines » son coeur n’a de cesse de voyager entre la France, la Suisse et l’Italie…",
+    "button": "Découvrez",
+    "p2": "C’est l’amour d’un savoir-faire artisanal ainsi qu’une quête mystique intérieure qui posent les fondements de la marque. L’atelier VICE VERSA défend le savoir-faire français, l’artisanat d’art, l’exception avec ses pièces uniques conçues dans des matières de première qualité ",
+    "span": "chinées auprès des mêmes fournisseurs que les maisons de Haute Couture."
+  },
+  "ShopPage": {
+    "h1": "Nos produits",
+    "filters": {
+      "all": "Tout",
+      "short": "Les courtes",
+      "long": "Les longues",
+      "mix": "Les combinables",
+      "cocooning": "Cocooning",
+      "accessories": "Accessoires"
+    },
+    "span": "Rien sur les portants aujourd’hui ! Nos pièces uniques se méritent… préparez-vous à la prochaine pépite ✨"
+  },
+  "ShopID": {
+    "uniquePiece": "Pièce Unique",
+    "button": "Ajouter au panier"
+  },
+  "ContactPage": {
+    "h1": "Contact",
+    "firstName": "Prénom*",
+    "lastName": "Nom*",
+    "email": "Email*",
+    "phone": "Téléphone*",
+    "message": "Votre message...*",
+    "send": "Envoyer le message"
+  },
+  "NewsPage": {
+    "h1": "News"
+  },
+  "PopUpPage": {
+    "h1": "Pop up"
+  },
+  "CollaborationPage": {
+    "h1": "Collaboration Artistique"
+  },
+  "CartPage": {
+    "h1": "Votre Panier",
+    "pEmpty": "Votre panier est vide..."
+  },
+  "Footer": {
+    "legalNotice": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "cgv": "Retours et échanges"
+  }
+}

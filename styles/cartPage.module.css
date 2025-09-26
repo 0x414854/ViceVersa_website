@@ -1,0 +1,157 @@
+.title {
+  position: absolute;
+  width: 40%;
+  font-size: 54px;
+  color: white;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+  font-family: Cormorant, serif;
+  font-weight: 400;
+  animation: title 0.8s forwards;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  background: white;
+  width: 100%;
+  height: 1px;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Articles */
+.container {
+  width: 60%;
+  margin: auto auto;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: var(--border-radius-20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Infos article */
+.infosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 20px;
+}
+
+.infos div {
+  font-size: 16px;
+}
+
+.item button {
+  align-self: flex-start;
+  padding: 8px 20px;
+  background: var(--cta-color);
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius-20);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.item button:hover {
+  background: #ff3b3b;
+}
+
+/* Total */
+.totalContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: 20px auto 80px auto;
+}
+
+.totalContainer button {
+  background: #1dd1a1;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.totalContainer button:hover {
+  background: #10ac84;
+}
+
+/* Panier vide */
+/* .EmptyCartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+} */
+
+.emptyCart {
+  width: 80%;
+  text-align: center;
+  font-size: 28px;
+  color: #555;
+  margin: 0 auto 80px auto;
+}
+
+@media (max-width: 768px) {
+  .title {
+    top: 30%;
+    width: 90%;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+/* KEY FRAMES ANIMATION */
+
+@keyframes title {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -150%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

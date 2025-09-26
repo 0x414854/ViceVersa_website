@@ -1,0 +1,244 @@
+.title {
+  position: absolute;
+  width: 40%;
+  font-size: 54px;
+  color: white;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+  font-family: Cormorant, serif;
+  font-weight: 400;
+  animation: title 0.8s forwards;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  background: white;
+  width: 100%;
+  height: 1px;
+  transition: width 0.3s ease-in-out;
+}
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 50px auto;
+  list-style-type: none;
+  gap: 10px;
+}
+/* Par défaut on cache la version mobile */
+.mobileFilters {
+  display: none;
+}
+
+.filterElement {
+  width: 14%;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: var(--border-radius-20);
+  text-align: center;
+}
+
+.activeFilter {
+  background-color: var(--cta-color); /* couleur que tu veux */
+  color: #fff;
+}
+/* PAS DE PRODUIT */
+.noProductsBanner {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--cta-color);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  white-space: nowrap;
+  position: relative;
+  padding: 20px;
+}
+
+.noProductsContent {
+  display: inline-block;
+  text-align: center;
+  animation: marquee 15s linear infinite;
+}
+.noProductsContent:hover {
+  animation-play-state: paused;
+}
+
+.noProductsContent span {
+  display: inline-block;
+  width: 100%;
+
+  padding-right: 2rem; /* espace entre les deux phrases */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 85%;
+  margin: 0 auto 80px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.imageWrapper {
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: var(--border-radius-20);
+  transition: transform 0.3s ease;
+}
+.imageWrapper:hover {
+  transform: scale(1.02);
+}
+
+.img {
+  border-radius: var(--border-radius-20);
+}
+
+.card:hover .img,
+.card:focus .img,
+.card:hover .overlay,
+.card:focus .overlay {
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in;
+}
+
+.img {
+  /* width: 100%; */
+  /* height: auto; */
+  /* display: block; */
+  object-fit: cover;
+}
+
+/* Overlay en bas */
+.overlay {
+  position: absolute;
+  bottom: -15%;
+  left: 10%;
+  width: 80%;
+  padding: 20px;
+  border-radius: var(--border-radius-20);
+  text-align: center;
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); */
+  background: rgb(255, 255, 255);
+  color: black;
+  margin: auto auto;
+  z-index: 1;
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in;
+}
+
+.overlay h2 {
+  font-size: 1.2rem;
+  color: var(--cta-color);
+  margin: 0;
+  font-weight: 600;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.price {
+  display: flex;
+  font-size: 1.2rem;
+  margin: 5px 0 0;
+  /* font-weight: 400; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.price span {
+  margin: 0 0 0 5px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .title {
+    width: 90%;
+    top: 30%;
+  }
+  .desktopFilters {
+    display: none; /* cache la liste */
+  }
+
+  .mobileFilters {
+    appearance: none; /* supprime le style natif */
+    -webkit-appearance: none; /* pour Safari */
+    -moz-appearance: none; /* pour Firefox */
+    border: none;
+    border-bottom: 2px solid var(--cta-color);
+    display: flex; /* affiche le select */
+    width: 40%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0 auto 50px auto;
+    cursor: pointer;
+    text-align: center;
+    text-align-last: center;
+    border-radius: 0;
+    letter-spacing: var(--letter-spacing);
+
+    background-image: url("/icons/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right 2rem center; /* à droite et centré verticalement */
+    background-size: 1.2rem; /* taille flèche */
+  }
+  .mobileFilters .filterElement {
+    text-align: center;
+  }
+  .noProductsBanner {
+    font-size: 1rem;
+  }
+  .products,
+  .imageWrapper,
+  .img {
+    width: 100%;
+  }
+  .productsContainer .overlay {
+    width: 80%;
+  }
+}
+
+/* KEY FRAMES ANIMATION */
+
+@keyframes title {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -150%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

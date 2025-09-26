@@ -1,0 +1,77 @@
+{
+  "Test": {
+    "title": "Benvenuto sulla pagina",
+    "content": "Sono sulla strada del successo"
+  },
+  "Navbar": {
+    "home": "Home",
+    "shop": "Negozio",
+    "about": "Chi sono",
+    "news": "Novità",
+    "contact": "Contatto",
+    "h1": "abiti da sposa e accessori di lusso",
+    "h2": "Atelier Vice Versa"
+  },
+  "Hero": {
+    "h1": "Abiti da sposa e accessori di lusso",
+    "h2": "Atelier Vice Versa"
+  },
+  "Homepage": {
+    "h3": "Il nostro mondo",
+    "p1": "Passeggia per questo sito come se fosse un viaggio… un viaggio interiore e onirico nel quale le tue emozioni ti faranno da guida… Lascia che la magia accada…",
+    "p2": "Ogni creazione è unica come lo sei tu e ogni capo è un atto d’amore come quello che stai per realizzare…",
+    "button": "Scopripre"
+  },
+
+  "AboutPage": {
+    "h1": "Chi Sono",
+    "h3": "Il nostro mondo",
+    "p1": "Diplomata dalla famosa Accademia Internazionale d’Alta Moda e d’Arte Del Costume KOEFIA di Roma, la creatrice dell’ atelier VICE VERSA non riesce a stabilirsi in un paese solo. Profondamente legata alle sue radici alpine, il suo cuore non smette mai di viaggiare tra la Francia, la Svizzera e l’Italia…",
+    "button": "Scopripre",
+    "p2": "È l’amore per il savoir-faire artigianale e una ricerca mistica interiore a porre le basi del marchio. L’atelier VICE VERSA difende il savoir-faire francese, l’artigianato artistico e l’eccezionalità con i suoi pezzi unici realizzati con materiali di prima qualità.",
+    "span": "provenienti dagli stessi fornitori delle case di Haute Couture."
+  },
+  "ShopPage": {
+    "h1": "I nostri prodotti",
+    "filters": {
+      "all": "Tutto",
+      "short": "I corti",
+      "long": "I lunghi",
+      "mix": "Combinabili",
+      "cocooning": "Cocooning",
+      "accessories": "Accessori"
+    },
+    "span": "Niente sugli appendiabiti oggi! I nostri pezzi unici vanno meritati… preparati al prossimo gioiello"
+  },
+  "ShopID": {
+    "uniquePiece": "Pezzo Unico",
+    "button": "Aggiungi al carrello"
+  },
+  "ContactPage": {
+    "h1": "Contatto",
+    "firstName": "Nome*",
+    "lastName": "Cognome*",
+    "email": "Email*",
+    "phone": "Telefono*",
+    "message": "Il tuo messaggio...*",
+    "send": "Invia il messaggio"
+  },
+  "NewsPage": {
+    "h1": "Novità"
+  },
+  "PopUpPage": {
+    "h1": "Pop up"
+  },
+  "CollaborationPage": {
+    "h1": "Collaborazione"
+  },
+  "CartPage": {
+    "h1": "Il tuo carrello",
+    "pEmpty": "Il tuo carrello è vuoto..."
+  },
+  "Footer": {
+    "legalNotice": "Note legali",
+    "privacyPolicy": "Informativa sulla privacy",
+    "cgv": "Resi e cambi"
+  }
+}
