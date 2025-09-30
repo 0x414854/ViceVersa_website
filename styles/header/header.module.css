@@ -43,8 +43,8 @@
   flex-direction: row;
   list-style-type: none;
   align-items: center;
-  justify-content: center;
-  width: 80%;
+  justify-content: space-between;
+  width: 90%;
   /* background: gray; */
   gap: 40px;
 }
@@ -361,18 +361,29 @@
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
     width: 100%;
-    max-width: 240px;
+    max-width: 230px;
   }
 }
 
-@media only screen and (min-width: 394px) and (orientation: landscape) {
+@media only screen and (min-width: 375px) and (orientation: landscape) {
+  .mobileNav {
+    width: 85%;
+    height: 100%;
+  }
+  .mobileNavContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .menuSeparator {
+    margin: 20px auto;
+  }
   .navbarContainer .navLeft,
   .navScrolled .navLeft {
     margin-right: 200px;
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    width: 100%;
     max-width: 240px;
   }
   .cartBadgeMobile {
