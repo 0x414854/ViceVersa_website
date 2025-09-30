@@ -1,0 +1,15 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Animation draw */
+.loaderContainer path {
+  fill: none; /* important pour que seul le trait soit animé */
+  stroke: #393536;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

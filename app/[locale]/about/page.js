@@ -24,6 +24,8 @@ export default function AboutPage() {
             width={570}
             height={640}
             alt="Robe de marié Vice Versa"
+            sizes="(max-width: 480px) 350px, 500px"
+            loading="lazy"
             className={styles.img}
           />
           <Image
@@ -31,6 +33,7 @@ export default function AboutPage() {
             width={350}
             height={350}
             alt="Robe de marié Vice Versa"
+            loading="lazy"
             className={styles.img}
           />
         </div>

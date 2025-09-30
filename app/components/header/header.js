@@ -73,6 +73,8 @@ export default function Header() {
             width={230}
             height={50}
             alt="ViceVersa Atelier Logo"
+            sizes="(max-width: 480px) 120px, 230px"
+            loading="lazy"
           />
         </Link>
       </div>
@@ -140,6 +142,9 @@ export default function Header() {
             height={24}
             alt="Panier"
           />
+          {totalItems > 0 && (
+            <span className={styles.cartBadgeMobile}>{totalItems}</span>
+          )}
         </Link>
       </div>
 

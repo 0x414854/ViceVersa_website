@@ -47,6 +47,7 @@
   gap: 40px;
   font-size: 16px;
   line-height: var(--lh-16);
+  letter-spacing: 0.4px;
 }
 .buttonContainer {
   display: flex;
@@ -138,5 +139,13 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
   }
 }

@@ -8,6 +8,7 @@ import { Link } from "@/i18n/navigation";
 
 import Image1 from "@/public/images/intro.jpg";
 import Image2 from "@/public/images/dress.jpeg";
+import Loader from "../components/loader/loader";
 
 // SI client Suisse ajouter en CHF les prix ? comment faire ?
 
@@ -24,6 +25,8 @@ export default function HomePage() {
             width={500}
             height={750}
             alt="Robe de marié Vice Versa"
+            sizes="(max-width: 480px) 350px, 500px"
+            loading="lazy"
             className={styles.img}
           />
           {/* <Image
@@ -48,6 +51,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* <Loader /> */}
       {/* <h1>{t("title")}</h1>
       <p>{t("content")}</p> */}
     </main>

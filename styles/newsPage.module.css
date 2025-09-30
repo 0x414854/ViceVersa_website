@@ -132,6 +132,18 @@
     flex-basis: 100%; /* sur mobile, pas d’élargissement pour hover */
   }
 }
+@media (max-width: 480px) {
+  .title {
+    top: 36%;
+    font-size: 2.5rem;
+  }
+  .wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column; /* prend au moins toute la hauteur visible */
+  }
+}
 
 /* KEY FRAMES ANIMATION */
 

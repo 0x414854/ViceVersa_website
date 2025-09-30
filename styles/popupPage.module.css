@@ -96,6 +96,24 @@
   }
 }
 
+@media (max-width: 480px) {
+  .title {
+    top: 36%;
+    font-size: 2.5rem;
+  }
+  .arrowContainer {
+    left: 30px;
+    top: 223px;
+  }
+  .arrowContainer a img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .badges {
+    width: 100%;
+  }
+}
+
 /* KEY FRAMES ANIMATION */
 
 @keyframes title {

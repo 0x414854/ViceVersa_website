@@ -102,6 +102,25 @@
   border: none;
 }
 
+@media (max-width: 768px) {
+  .title {
+    top: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    top: 36%;
+    font-size: 2.2rem;
+  }
+  .title::after {
+    top: 0;
+  }
+  .sectionsContainer {
+    width: 90%;
+  }
+}
+
 /* KEY FRAMES ANIMATION */
 
 @keyframes title {

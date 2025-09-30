@@ -86,7 +86,9 @@ export default function ProductPage() {
             src={product.images[currentIndex]}
             width={500}
             height={600}
+            sizes="(max-width: 480px) 350px, 500px"
             alt={t.name}
+            loading="lazy"
             className={styles.productImage}
             onClick={() => setIsModalOpen(true)}
           />
@@ -100,6 +102,7 @@ export default function ProductPage() {
                   width={80}
                   height={80}
                   alt=""
+                  loading="lazy"
                   className={`${styles.thumb} ${
                     i === currentIndex ? styles.activeThumb : ""
                   }`}
@@ -166,6 +169,14 @@ export default function ProductPage() {
             className={styles.modalContent}
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Bouton fermer */}
+            <button
+              className={styles.modalClose}
+              onClick={() => setIsModalOpen(false)}
+              aria-label="Fermer"
+            >
+              ✕
+            </button>
             <button className={styles.overlayArrowLeft} onClick={handlePrev}>
               ◀
             </button>

@@ -119,6 +119,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .title {
+    top: 36%;
+    font-size: 2.5rem;
+  }
+}
 /* KEY FRAMES ANIMATION */
 
 @keyframes title {
