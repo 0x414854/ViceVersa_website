@@ -121,12 +121,6 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (orientation: landscape) {
-  .title {
-    top: 65%;
-  }
-}
-
 /* KEY FRAMES ANIMATION */
 
 @keyframes title {

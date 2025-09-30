@@ -128,10 +128,10 @@
 .desktopNav {
   display: flex;
 }
-.navContainer {
+/* .navContainer {
   width: 75%;
   justify-content: space-between;
-}
+} */
 .mobileIcons {
   display: none;
   gap: 20px;
@@ -360,7 +360,6 @@
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    width: 100%;
     max-width: 230px;
   }
 }
@@ -404,7 +403,6 @@
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    width: 100%;
     max-width: 200px;
   }
   .cartBadgeMobile {
