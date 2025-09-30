@@ -1,7 +1,7 @@
 // app/cancel/page.js
 "use client";
 
-import Link from "next-intl/link";
+import { Link } from "@/i18n/navigation";
 
 export default function CancelPage() {
   return (

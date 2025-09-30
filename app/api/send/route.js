@@ -11,7 +11,7 @@ export async function POST(req) {
 
     const data = await resend.emails.send({
       from: "Website Contact <onboarding@resend.dev>", // peut être custom plus tard
-      to: "ath.tes@proton.me", // ton adresse Proton
+      to: "contact@viceversa-atelier.com", // ton adresse Proton
       subject: `Nouveau message de ${fullname}`,
       react: <EmailTemplateContact {...body} />,
     });
