@@ -2,6 +2,7 @@ import "./globals.css";
 import { Cormorant, DM_Sans } from "next/font/google";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -102,6 +103,7 @@ export default async function RootLayout({ children, params }) {
             <Footer />
             {/* Analytics Vercel */}
             <Analytics />
+            <SpeedInsights />
             {/* <p style={{ textAlign: "center", color: "#555" }}>
               Made with love by{" "}
               <Link href="https://www.arthurbarraud.me">
