@@ -340,10 +340,13 @@
 }
 /* smartphones seulement */
 @media (max-width: 480px) {
-  .navLeft {
+  .navbarContainer .navLeft,
+  .navScrolled .navLeft {
     margin-right: 80px;
   }
-  .navLeft a img {
+
+  .navbarContainer .navLeft a img,
+  .navScrolled .navLeft a img {
     width: 100%;
     max-width: 180px;
   }
@@ -351,13 +354,47 @@
     right: 85px;
   }
 }
+@media (max-width: 394px) {
+  .cartBadgeMobile {
+    right: 72px;
+  }
+  .navbarContainer .navLeft a img,
+  .navScrolled .navLeft a img {
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+@media only screen and (min-width: 394px) and (orientation: landscape) {
+  .navbarContainer .navLeft,
+  .navScrolled .navLeft {
+    margin-right: 200px;
+  }
+  .navbarContainer .navLeft a img,
+  .navScrolled .navLeft a img {
+    width: 100%;
+    max-width: 240px;
+  }
+  .cartBadgeMobile {
+    right: 165px;
+  }
+}
+
+@media (max-width: 384px) {
+  .cartBadgeMobile {
+    right: 68px;
+  }
+}
+
 @media (max-width: 380px) {
-  .navLeft {
+  .navbarContainer .navLeft,
+  .navScrolled .navLeft {
     margin-right: 80px;
   }
-  .navLeft a img {
+  .navbarContainer .navLeft a img,
+  .navScrolled .navLeft a img {
     width: 100%;
-    max-width: 180px;
+    max-width: 200px;
   }
   .cartBadgeMobile {
     right: 65px;

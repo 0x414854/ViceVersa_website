@@ -208,10 +208,11 @@
     text-align-last: center;
     border-radius: 0;
     letter-spacing: var(--letter-spacing);
-
+    background: transparent; /* fond transparent */
+    color: black; /* texte noir */
     background-image: url("/icons/downArrow.png");
     background-repeat: no-repeat;
-    background-position: right 2rem center; /* à droite et centré verticalement */
+    background-position: right 1.2rem center; /* à droite et centré verticalement */
     background-size: 1.2rem; /* taille flèche */
   }
   .mobileFilters .filterElement {

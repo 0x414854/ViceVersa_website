@@ -338,7 +338,8 @@
   }
   .productImage {
     width: 100%;
-    max-width: 500px;
+    width: 350px;
+    max-width: 350px;
     /* height: auto; */
   }
   .modalClose {
