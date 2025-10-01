@@ -160,13 +160,15 @@
     margin: auto auto;
   }
   .img:last-child {
+    width: 400px;
+    height: 400px;
+    top: 900px;
     left: 50%;
     transform: translate(-50%);
   }
-
   .intro {
     width: 95%;
-    margin-top: 250px;
+    margin-top: 340px;
     align-items: center;
     justify-content: center;
   }
@@ -205,9 +207,12 @@
     /* height: auto; */
   }
   .img:last-child {
-    top: 600px;
+    top: 655px;
     max-width: 300px;
     max-height: 300px;
+  }
+  .intro {
+    margin-top: 300px;
   }
 }
 
