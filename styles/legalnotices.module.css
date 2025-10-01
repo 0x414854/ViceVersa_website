@@ -122,12 +122,6 @@
   }
 }
 
-@media (max-width: 750px) {
-}
-.title {
-  top: 55%;
-}
-
 @media (max-width: 480px) {
   .title {
     width: 80%;
