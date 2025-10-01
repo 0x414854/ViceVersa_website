@@ -344,12 +344,12 @@
 @media (max-width: 480px) {
   .navbarContainer .navLeft,
   .navScrolled .navLeft {
-    margin-right: 80px;
+    margin-right: 50px;
   }
 
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    max-width: 180px;
+    max-width: 230px;
   }
   .cartBadgeMobile {
     right: 85px;
@@ -357,41 +357,43 @@
 }
 @media (max-width: 394px) {
   .cartBadgeMobile {
-    right: 48px;
+    right: 73px;
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    max-width: 230px;
+    max-width: 210px;
   }
 }
-@media (max-width: 384px) {
+@media (max-width: 385px) {
   .cartBadgeMobile {
-    right: 45px;
+    right: 69px;
   }
 }
 @media (max-width: 380px) {
   .navbarContainer .navLeft,
   .navScrolled .navLeft {
-    margin-right: 80px;
+    margin-right: 60px;
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    max-width: 200px;
+    max-width: 180px;
   }
   .cartBadgeMobile {
-    right: 55px;
+    right: 75px;
   }
 }
 @media (max-width: 361px) {
   .cartBadgeMobile {
-    right: 48px;
+    right: 66px;
   }
 }
 
-/* @media only screen and (min-width: 375px) and (orientation: landscape) {
+@media only screen and (min-width: 375px) and (orientation: landscape) {
   .mobileNav {
     width: 85%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .mobileNavContainer {
     flex-direction: row;
@@ -399,7 +401,7 @@
     gap: 20px;
   }
   .menuSeparator {
-    margin: 20px auto;
+    margin: 13px auto;
   }
   .navbarContainer .navLeft,
   .navScrolled .navLeft {
@@ -412,4 +414,4 @@
   .cartBadgeMobile {
     right: 165px;
   }
-} */
+}
