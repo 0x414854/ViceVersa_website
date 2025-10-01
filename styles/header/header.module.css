@@ -295,6 +295,9 @@
   filter: grayscale(0) brightness(1);
 }
 /* Responsive */
+
+/* smartphones seulement */
+
 @media (max-width: 768px) {
   .navbarContainer {
     width: 100%;
@@ -338,7 +341,6 @@
     border: 2px solid white;
   }
 }
-/* smartphones seulement */
 @media (max-width: 480px) {
   .navbarContainer .navLeft,
   .navScrolled .navLeft {
@@ -347,7 +349,6 @@
 
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
-    width: 100%;
     max-width: 180px;
   }
   .cartBadgeMobile {
@@ -356,15 +357,38 @@
 }
 @media (max-width: 394px) {
   .cartBadgeMobile {
-    right: 72px;
+    right: 48px;
   }
   .navbarContainer .navLeft a img,
   .navScrolled .navLeft a img {
     max-width: 230px;
   }
 }
+@media (max-width: 384px) {
+  .cartBadgeMobile {
+    right: 45px;
+  }
+}
+@media (max-width: 380px) {
+  .navbarContainer .navLeft,
+  .navScrolled .navLeft {
+    margin-right: 80px;
+  }
+  .navbarContainer .navLeft a img,
+  .navScrolled .navLeft a img {
+    max-width: 200px;
+  }
+  .cartBadgeMobile {
+    right: 55px;
+  }
+}
+@media (max-width: 361px) {
+  .cartBadgeMobile {
+    right: 48px;
+  }
+}
 
-@media only screen and (min-width: 375px) and (orientation: landscape) {
+/* @media only screen and (min-width: 375px) and (orientation: landscape) {
   .mobileNav {
     width: 85%;
     height: 100%;
@@ -388,24 +412,4 @@
   .cartBadgeMobile {
     right: 165px;
   }
-}
-
-@media (max-width: 384px) {
-  .cartBadgeMobile {
-    right: 68px;
-  }
-}
-
-@media (max-width: 380px) {
-  .navbarContainer .navLeft,
-  .navScrolled .navLeft {
-    margin-right: 80px;
-  }
-  .navbarContainer .navLeft a img,
-  .navScrolled .navLeft a img {
-    max-width: 200px;
-  }
-  .cartBadgeMobile {
-    right: 65px;
-  }
-}
+} */

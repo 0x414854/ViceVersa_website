@@ -337,7 +337,7 @@
     flex-direction: column;
   }
   .productImage {
-    width: 100%;
+    /* width: 100%; */
     width: 350px;
     max-width: 350px;
     /* height: auto; */
@@ -347,7 +347,8 @@
     right: 8px;
   }
   .modalImage {
-    width: 100%;
+    width: 350px;
+    max-width: 350px;
   }
 }
 
