@@ -27,7 +27,7 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: "Vice Versa Atelier - Vice Versa",
   description:
-    "Maison de couture artisanale de luxespécialisée dans la création de robes de mariée, robes de soirée, kimonos et accessoires de luxe faits main en France.",
+    "Atelier de couture artisanale de luxe spécialisée dans la création de robes de mariée, robes de soirée, kimonos et accessoires de luxe faits main en France.",
   icons: [{ url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }],
   keywords: [
     "Maison de couture",
@@ -55,7 +55,7 @@ export const metadata = {
   openGraph: {
     title: "Vice Versa Atelier - Vice Versa",
     description:
-      "Maison de couture de luxe : robes de mariée, soirée, kimonos et accessoires faits main en France.",
+      "Atelier de couture de luxe : robes de mariée, soirée, kimonos et accessoires faits main en France.",
     url: "https://viceversa-atelier.com",
     siteName: "Vice Versa Atelier - Vice Versa",
     images: [
@@ -73,7 +73,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Vice Versa Atelier - Vice Versa",
     description:
-      "Maison de couture de luxe : robes de mariée, soirée, kimonos et accessoires faits main en France.",
+      "Atelier de couture de luxe : robes de mariée, soirée, kimonos et accessoires faits main en France.",
     images: ["/ogImage.png"],
   },
 };
