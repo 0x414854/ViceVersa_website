@@ -135,9 +135,11 @@
 
 @media (max-width: 480px) {
   .title {
-    top: 36%;
+    /* position: fixed; */
+    top: 240px;
     font-size: 2.5rem;
   }
+
   .wrapper {
     width: 100%;
     height: auto;

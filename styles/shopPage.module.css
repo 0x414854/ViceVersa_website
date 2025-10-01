@@ -23,6 +23,10 @@
   height: 1px;
   transition: width 0.3s ease-in-out;
 }
+.headerWrapper {
+  position: relative;
+  height: 120px; /* ou la hauteur de ta navbar */
+}
 .filterContainer {
   display: flex;
   flex-direction: row;
@@ -233,7 +237,8 @@
 
 @media (max-width: 480px) {
   .title {
-    top: 36%;
+    /* position: fixed; */
+    top: 240px;
     font-size: 2.5rem;
   }
 }
