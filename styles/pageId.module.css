@@ -206,8 +206,7 @@
   outline: none;
 }
 
-.quantityBtn,
-.quantityBtn:focus {
+.quantityBtn {
   background: var(--cta-color);
   color: #fff;
   font-size: 18px;
@@ -412,6 +411,14 @@
   .modalClose {
     top: 0px;
     right: -2px;
+  }
+}
+
+@media (hover: none) {
+  .quantityBtn:hover {
+    background: var(--cta-color);
+    color: #fff;
+    border: 1px solid transparent;
   }
 }
 
