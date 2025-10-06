@@ -5,11 +5,15 @@ import { useState } from "react";
 import products from "@/data/products.json";
 import { useLocale, useTranslations } from "next-intl";
 import { useCart } from "@/context/cartContext";
+import { motion } from "framer-motion";
+import { Link } from "@/i18n/navigation";
 
 import styles from "@/styles/pageId.module.css";
 
 import Header from "@/app/components/header/header";
 import HeroNav from "@/app/components/content/heroNav";
+
+import BackArrow from "@/public/icons/backArrowWhite.png";
 
 export default function ProductPage() {
   const tr = useTranslations("ShopID");
@@ -56,7 +60,26 @@ export default function ProductPage() {
       <Header />
       <HeroNav />
       <h1 className={styles.title}>{t.name}</h1>
-
+      <motion.div
+        className={
+          t.name.length <= 11
+            ? styles.shortArrowContainer
+            : styles.arrowContainer
+        }
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
+      >
+        <Link href={`/shop#${product.id}`}>
+          <Image
+            src={BackArrow}
+            width={50}
+            height={50}
+            alt="Flèche retour en arriere à la boutique | /shop"
+          />
+        </Link>
+      </motion.div>
       <div className={styles.productContainer}>
         <div className={styles.imageContainer}>
           {product.images.length > 1 && (
@@ -80,12 +103,18 @@ export default function ProductPage() {
 
           <Image
             src={product.images[currentIndex]}
-            width={500}
-            height={600}
+            width={product.width}
+            height={product.height}
             sizes="(max-width: 480px) 350px, 500px"
             alt={t.name}
             loading="lazy"
-            className={styles.productImage}
+            className={
+              t.name.toLowerCase().startsWith("jupe") ||
+              t.name.toLowerCase().startsWith("robe") ||
+              t.name.toLowerCase().startsWith("ensemble")
+                ? styles.productImage
+                : styles.squareProductImage
+            }
             onClick={() => setIsModalOpen(true)}
           />
 
@@ -170,21 +199,37 @@ export default function ProductPage() {
             >
               ✕
             </button>
-            <button className={styles.overlayArrowLeft} onClick={handlePrev}>
-              ◀
-            </button>
-
             <Image
               src={product.images[currentIndex]}
               alt={t.name}
-              width={600}
-              height={700}
-              className={styles.modalImage}
+              width={product.modalWidth}
+              height={product.modalHeight}
+              className={
+                t.name.toLowerCase().startsWith("jupe") ||
+                t.name.toLowerCase().startsWith("robe") ||
+                t.name.toLowerCase().startsWith("ensemble")
+                  ? styles.modalImage
+                  : styles.squareModalImage
+              }
             />
-
-            <button className={styles.overlayArrowRight} onClick={handleNext}>
-              ▶
-            </button>
+            {product.images.length > 1 && (
+              <>
+                <button
+                  className={styles.overlayArrowLeft}
+                  onClick={handlePrev}
+                  aria-label="Image précédente"
+                >
+                  ◀
+                </button>
+                <button
+                  className={styles.overlayArrowRight}
+                  onClick={handleNext}
+                  aria-label="Image suivante"
+                >
+                  ▶
+                </button>
+              </>
+            )}
           </div>
         </div>
       )}

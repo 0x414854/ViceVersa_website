@@ -23,19 +23,24 @@
   height: 1px;
   transition: width 0.3s ease-in-out;
 }
-
-/* .productContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: start;
-} */
+.arrowContainer,
+.shortArrowContainer {
+  position: absolute;
+  top: 247px;
+  left: 100px;
+}
+.arrowContainer a img:hover,
+.arrowContainer a img:focus,
+.shortArrowContainer a img:hover,
+.shortArrowContainer a img:focus {
+  transform: scale(1.1);
+}
 .productContainer {
   display: flex;
-  flex-direction: row; /* image à gauche, infos à droite */
-  width: 85%;
+  flex-direction: row;
+  width: 90%;
   /* gap: 2rem;  */
-  align-items: center; /* aligne le haut des colonnes */
+  align-items: center;
   justify-content: center;
   margin: 0 auto 80px auto;
 }
@@ -53,6 +58,10 @@
 }
 
 .productImage {
+  cursor: zoom-in;
+  border-radius: 8px;
+}
+.squareProductImage {
   cursor: zoom-in;
   border-radius: 8px;
 }
@@ -100,7 +109,7 @@
 .infoContainer {
   position: relative; /* nécessaire pour les pseudo-éléments */
   width: 50%;
-  padding: 24px;
+  padding: 10px;
   border: 1px solid var(--cta-color);
   border-left: none;
   border-radius: 0 20px 20px 0;
@@ -115,7 +124,7 @@
   font-size: 30px;
 }
 .description {
-  width: 80%;
+  width: 90%;
   margin: 0 auto 10px auto;
 }
 .material,
@@ -175,7 +184,6 @@
   width: fit-content;
 }
 
-/* cacher les flèches natives */
 .quantityInput::-webkit-outer-spin-button,
 .quantityInput::-webkit-inner-spin-button {
   appearance: none;
@@ -187,7 +195,7 @@
 .quantityInput[type="number"] {
   appearance: textfield;
   -moz-appearance: textfield;
-  -webkit-appearance: textfield; /* Firefox */
+  -webkit-appearance: textfield;
 }
 
 .quantityInput {
@@ -274,6 +282,7 @@
   align-items: center;
   justify-content: center;
   z-index: 10;
+  display: none;
 }
 
 .modalClose:hover {
@@ -281,6 +290,9 @@
 }
 
 .modalImage {
+  border-radius: 10px;
+}
+.squareModalImage {
   border-radius: 10px;
 }
 
@@ -337,6 +349,22 @@
   .title::after {
     top: 48px;
   }
+  .arrowContainer {
+    top: 224px;
+    left: 20px;
+  }
+  .arrowContainer a img {
+    width: 40px;
+    height: 40px;
+  }
+  .shortArrowContainer a img {
+    width: 40px;
+    height: 40px;
+  }
+  .shortArrowContainer {
+    top: 200px;
+    left: 20px;
+  }
 
   .buttonContainer {
     flex-direction: column;
@@ -345,15 +373,27 @@
     /* width: 100%; */
     width: 350px;
     max-width: 350px;
-    /* height: auto; */
+    height: 500px;
+  }
+  .squareProductImage {
+    width: 350px;
+    max-width: 350px;
+    height: 350px;
   }
   .modalClose {
-    top: -6px;
+    display: block;
+    top: 6px;
     right: 8px;
   }
   .modalImage {
     width: 350px;
     max-width: 350px;
+    height: 600px;
+  }
+  .squareModalImage {
+    width: 350px;
+    max-width: 350px;
+    height: 350px;
   }
 }
 @media (max-width: 384px) {

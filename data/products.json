@@ -33,6 +33,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "49,00 ",
     "priceStripe": "4900"
@@ -74,6 +78,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "49,00 ",
     "priceStripe": "4900"
@@ -112,6 +120,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "49,00 ",
     "priceStripe": "4900"
@@ -150,6 +162,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "39,00 ",
     "priceStripe": "3900"
@@ -188,6 +204,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "39,00 ",
     "priceStripe": "3900"
@@ -226,8 +246,12 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
-    "price": "39,00 ",
+    "price": "39,00",
     "priceStripe": "3900"
   },
   {
@@ -264,6 +288,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "39,00 ",
     "priceStripe": "3900"
@@ -302,6 +330,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "39,00 ",
     "priceStripe": "3900"
@@ -343,6 +375,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "39,00 ",
     "priceStripe": "3900"
@@ -381,6 +417,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "49,00 ",
     "priceStripe": "4900"
@@ -419,6 +459,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
     "price": "49,00 ",
     "priceStripe": "4900"
@@ -457,8 +501,12 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "600",
+    "height": "500",
+    "modalHeight": "600",
     "categorySlug": "Accessoires",
-    "price": "49,00 ",
+    "price": "49,00",
     "priceStripe": "4900"
   },
   {
@@ -499,6 +547,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "500",
+    "height": "800",
+    "modalHeight": "700",
     "categorySlug": "Les courtes",
     "price": "490,00 ",
     "priceStripe": "49000"
@@ -541,6 +593,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "576",
+    "modalWidth": "576",
+    "height": "720",
+    "modalHeight": "720",
     "categorySlug": "Les courtes",
     "price": "690,00 ",
     "priceStripe": "69000"
@@ -579,6 +635,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "481",
+    "modalWidth": "481",
+    "height": "720",
+    "modalHeight": "720",
     "categorySlug": ["Les longues", "Les combinables"],
     "price": "890,00",
     "priceStripe": "89000"
@@ -621,6 +681,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "512",
+    "modalWidth": "512",
+    "height": "768",
+    "modalHeight": "700",
     "categorySlug": ["Les longues", "Les combinables"],
     "price": "890,00",
     "priceStripe": "89000"
@@ -663,6 +727,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "600",
+    "modalWidth": "600",
+    "height": "600",
+    "modalHeight": "600",
     "categorySlug": "Les longues",
     "price": "2100,00",
     "priceStripe": "210000"
@@ -671,8 +739,7 @@
     "id": "robe-nikita",
     "images": [
       "/images/products/robeNikita-1.jpg",
-      "/images/products/robeNikita-2.jpg",
-      "/images/products/robeNikita-3.jpg"
+      "/images/products/robeNikita-2.jpg"
     ],
     "translations": {
       "fr": {
@@ -705,6 +772,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "600",
+    "modalWidth": "600",
+    "height": "740",
+    "modalHeight": "740",
     "categorySlug": "Les longues",
     "price": "2100,00",
     "priceStripe": "210000"
@@ -743,6 +814,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "500",
+    "modalWidth": "500",
+    "height": "700",
+    "modalHeight": "700",
     "categorySlug": "Les longues",
     "price": "2100,00",
     "priceStripe": "210000"
@@ -784,6 +859,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "530",
+    "modalWidth": "530",
+    "height": "700",
+    "modalHeight": "700",
     "categorySlug": "Les longues",
     "price": "1490,00",
     "priceStripe": "149000"
@@ -825,6 +904,10 @@
     },
     "uniquePiece": true,
     "available": true,
+    "width": "550",
+    "modalWidth": "550",
+    "height": "700",
+    "modalHeight": "700",
     "categorySlug": "Les longues",
     "price": "1850,00",
     "priceStripe": "185000"

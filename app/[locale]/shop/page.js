@@ -1,9 +1,9 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "@/styles/shopPage.module.css";
 import { useLocale, useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 
 import Image from "next/image";
 
@@ -47,7 +47,6 @@ export default function ShopPage() {
             : product.categorySlug === activeFilter
         );
 
-  // on trie (même quand on filtre, ça ne changera rien si une seule catégorie)
   const sortedProducts = [...filteredProducts].sort((a, b) => {
     const catA = Array.isArray(a.categorySlug)
       ? a.categorySlug[0]
@@ -59,11 +58,20 @@ export default function ShopPage() {
     return categoryOrder.indexOf(catA) - categoryOrder.indexOf(catB);
   });
 
-  // Variants parent (staggerChildren gère le décalage)
+  useEffect(() => {
+    const hash = window.location.hash.substring(1); // enlève le #
+    if (hash) {
+      const el = document.getElementById(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  }, []);
+
   const containerVariants = {
     visible: {
       transition: {
-        staggerChildren: 0.15, // délai entre chaque produit
+        staggerChildren: 0.15,
       },
     },
     hidden: {},
@@ -136,6 +144,7 @@ export default function ShopPage() {
             return (
               <motion.div
                 key={product.id}
+                id={product.id}
                 variants={itemVariants}
                 exit="exit"
                 layout
