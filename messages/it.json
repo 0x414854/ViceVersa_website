@@ -8,12 +8,10 @@
     "shop": "Negozio",
     "about": "Chi sono",
     "news": "Novità",
-    "contact": "Contatto",
-    "h1": "abiti da sposa e accessori di lusso",
-    "h2": "Atelier Vice Versa"
+    "contact": "Contatto"
   },
   "Hero": {
-    "h1": "Abiti da sposa e accessori di lusso",
+    "h1": "Artigianato di lusso : abiti da sposa, da sera e accessori",
     "h2": "Atelier Vice Versa"
   },
   "Homepage": {
@@ -73,5 +71,10 @@
     "legalNotice": "Note legali",
     "privacyPolicy": "Informativa sulla privacy",
     "cgv": "Resi e cambi"
+  },
+  "CancelPage": {
+    "h1": "Pagamento annullato 😔",
+    "p": "Puoi riprovare a effettuare l’ordine oppure tornare al negozio.",
+    "button": "Torna al negozio"
   }
 }

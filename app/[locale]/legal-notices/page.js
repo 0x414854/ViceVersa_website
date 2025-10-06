@@ -37,7 +37,7 @@ export default function LegalNotices() {
             <span className={styles.infos}>Siège social</span> : 81 Rue de
             Vigny, 01220 Divonne-les-Bains <br />
             Immatriculée au RCS - <br />
-            <span className={styles.infos}>SIREN</span> : 515 317 022
+            <span className={styles.infos}>SIRET</span> : 515 317 022 000 25
             <br />
             {/* <span className={styles.infos}>TVA intracommunautaire</span> : FR12
             345678901 <br /> */}

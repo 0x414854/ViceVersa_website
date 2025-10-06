@@ -1,16 +1,26 @@
 // app/success/page.js
 "use client";
+import styles from "@/styles/success.module.css";
 
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
+
+import Header from "@/app/components/header/header";
+import HeroNav from "@/app/components/content/heroNav";
 
 export default function SuccessPage() {
+  const t = useTranslations("SuccessPage");
   return (
-    <main style={{ textAlign: "center", padding: "2rem" }}>
-      <h1>Paiement réussi 🎉</h1>
-      <p>Merci pour votre commande !</p>
-      <Link href="/shop">
-        <button style={{ marginTop: "1rem" }}>Retour à la boutique</button>
-      </Link>
+    <main>
+      <Header />
+      <HeroNav />
+      <h1 className={styles.title}>{t("h1")}</h1>
+      <section className={styles.section}>
+        <p>{t("p")}</p>
+        <Link href="/shop">
+          <button>{t("button")}</button>
+        </Link>
+      </section>
     </main>
   );
 }

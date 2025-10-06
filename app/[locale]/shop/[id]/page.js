@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import products from "@/data/products.json";
 import { useLocale, useTranslations } from "next-intl";
-import { useCart } from "@/context/cartContext"; //Ajouter au panier
+import { useCart } from "@/context/cartContext";
 
 import styles from "@/styles/pageId.module.css";
 
@@ -28,7 +28,6 @@ export default function ProductPage() {
   const [qty, setQty] = useState(1);
   const [quantity, setQuantity] = useState(1);
 
-  // Gestion carousel
   const handlePrev = () => {
     setCurrentIndex((prev) =>
       prev === 0 ? product.images.length - 1 : prev - 1
@@ -41,17 +40,15 @@ export default function ProductPage() {
     );
   };
 
-  // Gestion quantité
   const increase = () => setQty(qty + 1);
   const decrease = () => setQty(qty > 1 ? qty - 1 : 1);
 
-  // Ajouter au panier
   const handleAddToCart = () => {
     console.log(`Ajouter ${quantity} ${t.name} au panier`);
   };
   const handleClick = () => {
-    handleAddToCart(); // ta logique actuelle
-    addToCart(product, qty); // ajout au panier
+    handleAddToCart();
+    addToCart(product, qty);
   };
 
   return (
@@ -61,7 +58,6 @@ export default function ProductPage() {
       <h1 className={styles.title}>{t.name}</h1>
 
       <div className={styles.productContainer}>
-        {/* ---------------- IMAGE + MINIATURES ---------------- */}
         <div className={styles.imageContainer}>
           {product.images.length > 1 && (
             <>
@@ -113,7 +109,6 @@ export default function ProductPage() {
           )}
         </div>
 
-        {/* ---------------- INFOS PRODUIT ---------------- */}
         <div
           className={`${styles.infoContainer} ${
             product.images.length > 1 ? styles.withThumbnails : ""
@@ -162,14 +157,12 @@ export default function ProductPage() {
         </div>
       </div>
 
-      {/* ---------------- MODAL PLEIN ÉCRAN ---------------- */}
       {isModalOpen && (
         <div className={styles.overlay} onClick={() => setIsModalOpen(false)}>
           <div
             className={styles.modalContent}
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Bouton fermer */}
             <button
               className={styles.modalClose}
               onClick={() => setIsModalOpen(false)}

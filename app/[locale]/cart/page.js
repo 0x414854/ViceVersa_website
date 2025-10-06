@@ -2,13 +2,14 @@
 import styles from "@/styles/cartPage.module.css";
 import { useCart } from "@/context/cartContext";
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 import Header from "@/app/components/header/header";
 import HeroNav from "@/app/components/content/heroNav";
 
 export default function CartPage() {
   const t = useTranslations("CartPage");
-  const { cart, removeFromCart } = useCart();
+  const { cart, removeFromCart, updateCartItemQty } = useCart();
   const locale = useLocale();
 
   // ✅ total général du panier
@@ -44,22 +45,68 @@ export default function CartPage() {
         <ul className={styles.items}>
           {cart.map((item) => (
             <li key={item.id} className={styles.item}>
-              <img src={item.images[0]} alt={item.translations[locale].name} />
+              <Link
+                href={`/shop/${item.id}`} // ← ou l’URL réelle de ton produit
+                className={styles.itemLink}
+              >
+                <img
+                  src={item.images[0]}
+                  alt={item.translations[locale].name}
+                  className={styles.itemImage}
+                />
 
-              <div className={styles.infosContainer}>
-                <div className={styles.infos}>
-                  <div style={{ fontWeight: "bold" }}>
-                    {item.translations[locale].name}
+                <div className={styles.infosContainer}>
+                  <div className={styles.infos}>
+                    <div className={styles.name}>
+                      <p>{item.translations[locale].name}</p>
+                      {item.translations[locale].size && (
+                        <> - {item.translations[locale].size}</>
+                      )}
+                    </div>
+
+                    <div className={styles.qtyContainer}>
+                      <button
+                        className={styles.qtyButton}
+                        onClick={(e) => {
+                          e.preventDefault(); // empêche le clic d’ouvrir la page
+                          updateCartItemQty(item.id, Math.max(1, item.qty - 1));
+                        }}
+                        aria-label="Réduire la quantité"
+                      >
+                        −
+                      </button>
+                      <span className={styles.qtyValue}>{item.qty}</span>
+                      <button
+                        className={styles.qtyButton}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          updateCartItemQty(item.id, item.qty + 1);
+                        }}
+                        aria-label="Augmenter la quantité"
+                      >
+                        +
+                      </button>
+                      <div>
+                        {" × "}
+                        {(item.price / 100).toFixed(2)} € ={" "}
+                        <strong>
+                          {((item.price * item.qty) / 100).toFixed(2)} €
+                        </strong>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    {item.qty} x {(item.price / 100).toFixed(2)} € ={" "}
-                    <strong>
-                      {((item.price * item.qty) / 100).toFixed(2)} €
-                    </strong>
-                  </div>
+
+                  <button
+                    onClick={(e) => {
+                      e.preventDefault(); // évite la redirection
+                      removeFromCart(item.id);
+                    }}
+                    className={styles.removeArticle}
+                  >
+                    Retirer
+                  </button>
                 </div>
-                <button onClick={() => removeFromCart(item.id)}>Retirer</button>
-              </div>
+              </Link>
             </li>
           ))}
         </ul>

@@ -9,13 +9,11 @@
     "shop": "Shop",
     "about": "About",
     "news": "News",
-    "contact": "Contact",
-    "h1": "Luxury craftsmanship of wedding dresses & accessories",
-    "h2": "Atelier Vice Versa"
+    "contact": "Contact"
   },
 
   "Hero": {
-    "h1": "Luxury craftsmanship of wedding dresses & accessories",
+    "h1": "Luxury craftsmanship : wedding dresses, evening gowns & accessories",
     "h2": "Atelier Vice Versa"
   },
 
@@ -76,5 +74,10 @@
     "legalNotice": "Legal notice",
     "privacyPolicy": "Privacy policy",
     "cgv": "Returns & exchanges"
+  },
+  "CancelPage": {
+    "h1": "Payment canceled 😔",
+    "p": "You can try placing your order again or return to the shop.",
+    "button": "Back to shop"
   }
 }

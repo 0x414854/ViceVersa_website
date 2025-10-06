@@ -198,7 +198,8 @@
   outline: none;
 }
 
-.quantityBtn {
+.quantityBtn,
+.quantityBtn:focus {
   background: var(--cta-color);
   color: #fff;
   font-size: 18px;

@@ -8,12 +8,10 @@
     "shop": "Boutique",
     "about": "À propos",
     "news": "News",
-    "contact": "Contact",
-    "h1": "Artisanat de luxe de robes de mariées & accessoires",
-    "h2": "Atelier Vice Versa"
+    "contact": "Contact"
   },
   "Hero": {
-    "h1": "Artisanat de luxe de robes de mariées & accessoires",
+    "h1": "Artisanat de luxe : robes de mariée, de soirée & accessoires",
     "h2": "Atelier Vice Versa"
   },
   "Homepage": {
@@ -72,5 +70,15 @@
     "legalNotice": "Mentions légales",
     "privacyPolicy": "Politique de confidentialité",
     "cgv": "Retours et échanges"
+  },
+  "CancelPage": {
+    "h1": "Paiement annulé 😔",
+    "p": "Vous pouvez réessayer votre commande ou revenir à la boutique.",
+    "button": "Retour à la boutique"
+  },
+  "SuccessPage": {
+    "h1": "Paiement réussi 🎉",
+    "p": "Merci pour votre commande !",
+    "button": "Retour à la boutique"
   }
 }
