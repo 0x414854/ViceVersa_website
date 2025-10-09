@@ -94,6 +94,7 @@ export default async function RootLayout({ children, params }) {
     <html lang={locale}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://viceversa-atelier.com" />
       </Head>
       <body className={dmSans.className}>
         {/* On enveloppe tout dans NextIntl + CartProvider */}

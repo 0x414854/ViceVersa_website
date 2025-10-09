@@ -2,6 +2,7 @@
 import styles from "@/styles/content/hero.module.css";
 import Image from "next/image";
 import Header from "@/app/components/header/header";
+import BackgroundImage from "@/public/images/viceversa.jpg";
 
 import { motion } from "framer-motion";
 

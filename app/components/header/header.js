@@ -87,7 +87,7 @@ export default function Header() {
               <Link
                 href={href}
                 className={styles.navbarlink}
-                aria-selected={pathname === href ? "true" : "false"}
+                aria-current={pathname === href ? "page" : undefined}
               >
                 {t(["home", "shop", "about", "news", "contact"][i])}
               </Link>
@@ -95,7 +95,12 @@ export default function Header() {
           ))}
 
           <li className={styles.langDropdown}>
+            <label htmlFor="langSelect" className={styles.visuallyHidden}>
+              Langue
+            </label>
+
             <select
+              id="langSelect"
               className={styles.langSelect}
               onChange={handleLocaleChange}
               value={locale}
